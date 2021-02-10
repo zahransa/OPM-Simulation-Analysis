@@ -13,4 +13,7 @@
 % 9. Run 3_creatopm.m, you will get ChOPMn, ChOPMt1, ChOPMt2
 % 10. You can now run the 4_Plot_OPM to check the orientation of OPMs
 % 11. Put them in a right structure so that you can load it in brainstorm: Chopmt1=chmeg; Chopmt1.Channel=ChOPMt1;
-% 12. 
+% 12. Right click on the channel --> Compute head model --> Cortex surface
+% (OPENMEEG) -->  Export the headmodel to matlab.
+% 13. The leadfield is always computed for 3 orientations at each point. To
+% apply an orientation constraint to it, use bst_gain_orient.m: Gain_normal = bst_gain_orient(leadfield, Cortex.VertNormals);
