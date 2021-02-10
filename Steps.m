@@ -10,6 +10,7 @@
 % 7. Export the scalp to the matlab then do: scalpp=scalp.Vertices;
 % scalpnn=scalp.VertNormals; -- for ind = 1: 102 coiln(ind,:)=chmeg.Channel(ind).Orient(:,1); end
 % 8. Run 2_CreateArraysFromSQUIDs.m (this script need ConstructRotationMatrix.m)
-% 9. Run 3_creatopm.m
+% 9. Run 3_creatopm.m, you will get ChOPMn, ChOPMt1, ChOPMt2
 % 10. You can now run the 4_Plot_OPM to check the orientation of OPMs
-% 11. 
+% 11. Put them in a right structure so that you can load it in brainstorm: Chopmt1=chmeg; Chopmt1.Channel=ChOPMt1;
+% 12. 
