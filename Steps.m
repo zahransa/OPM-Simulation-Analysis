@@ -17,3 +17,5 @@
 % (OPENMEEG) -->  Export the headmodel to matlab.
 % 13. The leadfield is always computed for 3 orientations at each point. To
 % apply an orientation constraint to it, use bst_gain_orient.m: Gain_normal = bst_gain_orient(leadfield, Cortex.VertNormals);
+% 14. Run 5_Topography_Power.m you can find on this script the steps to visualize the Topography power in the cortex 
+% 16. To compute the total information you can run 6_Total_information.m
