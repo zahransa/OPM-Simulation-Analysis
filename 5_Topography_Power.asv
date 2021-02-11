@@ -12,7 +12,4 @@ hist(pow_n./pow_t1,50);
 
 % In order to visualize the Topography power in the cortex you shoud:
 % 1. Simulate generic signal
-% 2. Simulate recording from scout
-% 3. Export the simulation to matlab
-% 4. normalise the values f=pow_n/max(pow_n); -- simulation.ImageGridAmp=f';
-
+% 2. 
