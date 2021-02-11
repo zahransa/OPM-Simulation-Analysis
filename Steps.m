@@ -19,4 +19,11 @@
 % apply an orientation constraint to it, use bst_gain_orient.m: Gain_normal = bst_gain_orient(leadfield, Cortex.VertNormals);
 % 14. Run 5_Topography_Power.m you can find on this script the steps to visualize the Topography power in the cortex 
 % 16. To compute the total information you can run 6_Total_information.m
-% 17. To compute the sensitivity map check: Other_metric_with_Python\Sensitivity_map_ahlfors.py
+% 17. For Primary- and volume-current contributions we can do this with openmeeg https://openmeeg.github.io/tutorial.html#om-gain
+% we would need to zero either of the matrices Source2MEGMat or Head2MEGMat
+% see the note, read the matrix in matlab, put only zeros and save it back
+% using om_xxx functions in brainstorm. To do so you can just add those 3
+% lines: load(h2mmfile); linop = zeros(size(linop)); save(h2mmfile,
+% 'linop'); to Primary- and volume-current/bst-openmeeg.m --> For Primary- and volume-current contributions you can run Primary- and
+% volume-current/TP_PV.m
+% 18. To compute the sensitivity map check: Other_metric_with_Python\Sensitivity_map_ahlfors.py
