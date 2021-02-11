@@ -24,6 +24,6 @@
 % see the note, read the matrix in matlab, put only zeros and save it back
 % using om_xxx functions in brainstorm. To do so you can just add those 3
 % lines: load(h2mmfile); linop = zeros(size(linop)); save(h2mmfile,
-% 'linop'); to Primary- and volume-current/bst-openmeeg.m --> For Primary- and volume-current contributions you can run Primary- and
+% 'linop'); to Primary- and volume-current/bst-openmeeg.m in line 474 --> For Primary- and volume-current contributions you can run Primary- and
 % volume-current/TP_PV.m
 % 18. To compute the sensitivity map check: Other_metric_with_Python\Sensitivity_map_ahlfors.py
