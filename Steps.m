@@ -30,3 +30,4 @@
 % radial): a) Compute a volume head model b) Simulate recordings from scouts Desikan-Killiany-BanksstsL) c) Compute sources d) Dipole
 % modeling then Dipole scanning  (Sources > Dipoles scanning) Desikan-Killiany-BanksstsL --> Run Volume_dipole_orientation.m 
 % 19. To compute the sensitivity map check: Other_metric_with_Python\Sensitivity_map_ahlfors.py
+% 20. Compute spatial resolution metrics
