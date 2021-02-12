@@ -26,4 +26,7 @@
 % lines: load(h2mmfile); linop = zeros(size(linop)); save(h2mmfile,
 % 'linop'); to Primary- and volume-current/bst-openmeeg.m in line 474 --> For Primary- and volume-current contributions you can run Primary- and
 % volume-current/TP_PV.m
-% 18. To compute the sensitivity map check: Other_metric_with_Python\Sensitivity_map_ahlfors.py
+% 18. Inorder to polt the topograpy for 3 dipole orientaion (2 tangential,
+% radial): a) Compute a volume head model b) Simulate recordings from scouts Desikan-Killiany-BanksstsL) c) Compute sources d) Dipole
+% modeling then Dipole scanning  (Sources > Dipoles scanning) Desikan-Killiany-BanksstsL --> Run Volume_dipole_orientation.m 
+% 19. To compute the sensitivity map check: Other_metric_with_Python\Sensitivity_map_ahlfors.py
