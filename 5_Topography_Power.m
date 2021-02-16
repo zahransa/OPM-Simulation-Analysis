@@ -16,3 +16,5 @@ hist(pow_n./pow_t1,50);
 % 3. Export the simulation to matlab
 % 4. normalise the values f=pow_n/max(pow_n); -- simulation.ImageGridAmp=f';
 
+% note that the opm all combination is computed like that: gaina = [gainopmn;gainopmt1;gainopmt2];
+
