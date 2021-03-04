@@ -1,8 +1,5 @@
 %T=P+V
 
-
-
-
 %%%%%%%%%%%%%%%%%
 megv=Gain_normal_squid - Gain_normal_squidp;
 
